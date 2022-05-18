@@ -72,6 +72,7 @@ namespace Dropa.MongoBackupRobot
         {
             tmrBackup.Enabled = true;
             tmrBackup.Start();
+            SetLog($"App Started at {DateTime.Now}");
         }
 
         private void btnSelectFolder_Click(object sender, EventArgs e)

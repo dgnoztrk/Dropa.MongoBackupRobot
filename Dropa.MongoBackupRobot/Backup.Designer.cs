@@ -79,7 +79,7 @@
             // 
             this.btnStartStop.Location = new System.Drawing.Point(6, 642);
             this.btnStartStop.Name = "btnStartStop";
-            this.btnStartStop.Size = new System.Drawing.Size(532, 23);
+            this.btnStartStop.Size = new System.Drawing.Size(499, 23);
             this.btnStartStop.TabIndex = 3;
             this.btnStartStop.Text = "Start";
             this.btnStartStop.UseVisualStyleBackColor = true;
@@ -221,6 +221,7 @@
             this.Controls.Add(this.lstLog);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIP);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Backup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
